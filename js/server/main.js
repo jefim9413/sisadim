@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         link.addEventListener("click", function(event) {
           var id = event.target.getAttribute("id");
-          localStorage.setItem("id", id);
+          sessionStorage.setItem("id", id);
         });
       }
     })
