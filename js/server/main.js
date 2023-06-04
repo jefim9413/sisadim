@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
         link.className = "btn btn-success btn-lg btn-tam";
         link.textContent = data[i].name;
         link.setAttribute("id", data[i].id);
-        link.href = "institution.html";
+        link.href = "intitution.html";
         item.className = "mt-3 mb-3 d-flex justify-content-center btn-tam"; 
         item.appendChild(link);
         lista.appendChild(item);
