@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  
+  <link rel="stylesheet" type="text/css" href="css/login.css">
+  
+  <script src="./js/server/login.js" type='module' defer></script>
+</head>
+<body>
+
+  <div class="error-container" id="errorContainer">
+    Nome de usuário ou senha incorretos. Por favor, verifique suas credenciais.
+  </div>
+  <div class="box">
+    <form class="form" id="loginForm">
+      <h2>Sign in</h2>
+      <div class="inputBox">
+        <input type="text" required="required" autocomplete="username" />
+        <span>Username</span>
+        <i></i>
+      </div>
+      <div class="inputBox">
+        <input type="password" required="required" autocomplete="current-password" />
+        <span>Password</span>
+        <i></i>
+      </div>
+      <div class="links">
+        <a href="#">Forgot Password</a>
+        <a href="#">Signup</a>
+      </div>
+      <input type="submit" value="Login" />
+    </form>
+  </div>
+</body>
+</html>
